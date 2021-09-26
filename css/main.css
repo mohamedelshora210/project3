@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    padding-left: 150px;
+}
+.navbar ul li button a{
+    color: white  !important;
+}
+.navbar ul li button a:hover{background-color:transparent !important;color:wheat !important;}
+.navbar ul li a{
+    color:blue !important;
+    transition: all .3s;
+font-family: cursive;
+margin: 0px 13px;
+}
+.navbar ul li a:hover{
+    border-radius: 20px;
+    color:blue !important;
+    background-color: wheat;
+    text-decoration:none;}
+    .navbar ul li button{
+        border-radius: 20px;
+    }
+    ._19{
+        color:red;
+    }
+  .co{
+      color: navy;
+      font-weight: bold;
+      font-family: unset;
+      padding-left: 100px;
+  }
+  #btn-protect{
+      border-radius: 30px;
+  }
+  #home{
+      background-color:whitesmoke;
+  }
+  #about_corona .h1{
+    color:darkblue;
+    font-family:unset;
+    padding-top: 10px;
+  }
+  .information{ box-shadow: -3px  3px 3px black;
+
+  }
+  .card img{
+      border-bottom:5px solid rgb(99, 99, 226);
+  }
+  .card h5{
+      color:cornflowerblue;
+      text-align: center;
+  }
+  .card p{
+      color:darkslategray;
+      text-align: center;
+  }
+  .ques{
+      border-radius: 30px;
+
+  }
+  .ques a{
+      color:whitesmoke;
+      text-decoration: none;
+  }
+  .ques a:hover{
+      color:wheat;
+  }
+  #Symptoms .card{padding-top: 20px;
+margin-top: 25px;}
+  #Symptoms .card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70%;
+    left: 80%;
+  }
+  #Symptoms .card h5{color:cornflowerblue;}
+  #Symptoms .card p{color:darkslategray;}
+  #Symptoms .card span{font-weight: bold}
+  .warn{
+    color:red;
+  }
+  #Symptoms button{margin-top: 40px;padding:15px;border-radius: 30px;}
+  #Symptoms button a{color:white;text-decoration: none;}
+  #Symptoms button a:hover{color:wheat;}
+  #Prevention img{
+      border-radius: 100%;
+      width:100px;
+     margin-left: 35%;
+      margin-top: 20px;
+      position:relative;
+      vertical-align: middle;
+  }
+  #Prevention .card{border:none;padding: 10px 10px;margin: 0px 0px; background-color:transparent;}
+  #Prevention p{text-align: center;}
+  #Prevention .a{color:whitesmoke;text-decoration: none;font-weight: bold;}
+  #Prevention .a:hover{color: wheat;}
+  .protect span{font-weight: bold;}
+  .protect p a{text-decoration: none; color:dodgerblue;}
+  .protect p a:hover{color:tomato}
+  .protect .box{border-radius: 25px;box-shadow: 5px 5px 5px gray;}
+  #wash img{
+      border-radius: 100%;
+      width:140px;
+      margin:0px 5px;
+  }
+  #wash h6{
+      text-align: center;
+      color:slateblue;
+      padding-top: 10px;
+      font-weight: bold;
+  }
+  #Treatments p{
+      color: wheat;
+  }
+  footer{
+      color:wheat;
+      padding-top: 30px;
+      padding-bottom: 45px;
+  }
+  footer a{text-decoration: none;}
+  footer a:hover{
+      color:wheat;
+      text-decoration: none;
+  }
+  .go{
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      opacity: 0;
+  }
